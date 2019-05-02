@@ -31,8 +31,8 @@
       <input type="text" class="form-control" name="pengarang" placeholder="Pengarang Buku">
     </div>
 
-    <button type="submit" class="btn btn-primary" value="">Simpan</button>
-    <a href="{{ url('/') }}" class="btn btn-secondary">Back</a>
+    <button type="submit" class="btn btn-outline-success" value="">Simpan</button>
+    <a href="{{ url('/') }}" class="btn btn-outline-primary">Back</a>
   </fieldset>
 </form>
 

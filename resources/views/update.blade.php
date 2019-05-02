@@ -31,8 +31,8 @@
       <input type="text" value="<?php echo $buku->pengarang; ?>" class="form-control" name="pengarang" placeholder="">
     </div>
 
-    <button type="submit" class="btn btn-primary" value="">Update</button>
-    <a href="{{ url('/') }}" class="btn btn-secondary">Back</a>
+    <button type="submit" class="btn btn-outline-success" value="">Update</button>
+    <a href="{{ url('/') }}" class="btn btn-outline-primary">Back</a>
   </fieldset>
 </form>
 

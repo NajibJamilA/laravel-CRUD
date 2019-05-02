@@ -25,7 +25,7 @@
         <td>{{ $buku->pengarang }}</td>
       </tr>
   </table>
-<a href="{{ url('/') }}" class="btn btn-primary">Back</a>
+<a href="{{ url('/') }}" class="btn btn-outline-primary">Back</a>
 
     
   </div>

@@ -8,7 +8,7 @@
 
   <table class="table table-hover">
     <thead>
-      <tr>
+      <tr class="text-center">
         <th scope="col">Id</th>
         <th scope="col">Judul Buku</th>
         <th scope="col">Tanggal Dibuat</th>
@@ -20,15 +20,15 @@
       @foreach($buku->all() as $buku)
 
     <tbody>
-      <tr class="table-default">
+      <tr class="table-light text-center">
         <td>{{ $buku->id }}</td>
         <td>{{ $buku->judul }}</td>
         <td>{{ $buku->created_at }}</td>
         <td>{{ $buku->updated_at }}</td>
         <td>
-          <a href="{{ url("/view/{$buku->id}") }}" class="btn btn-primary">View</a>
-          <a href="{{ url("/update/{$buku->id}") }}" class="btn btn-warning">Update</a>
-          <a href="{{ url("/delete/{$buku->id}") }}" class="btn btn-danger">Delete</a>
+          <a href="{{ url("/view/{$buku->id}") }}" class="btn btn-outline-info">View</a>
+          <a href="{{ url("/update/{$buku->id}") }}" class="btn btn-outline-success">Update</a>
+          <a href="{{ url("/delete/{$buku->id}") }}" class="btn btn-outline-danger">Delete</a>
         </td>
       </tr>
       @endforeach
