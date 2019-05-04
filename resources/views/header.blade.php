@@ -19,10 +19,10 @@
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="{{ url('/') }}">Home</a>
+          <a class="nav-link" href="{{ url('/') }}">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/create') }}">Creates</a>
+          <a class="nav-link" href="{{ url('/create') }}">CREATE</a>
         </li>
       </ul>
 
